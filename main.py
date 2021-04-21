@@ -5,8 +5,8 @@ korea = "korea.xlsx"
 
 df = pd.read_excel(korea, engine="openpyxl")
 
-pivoted = df.pivot(
-    columns=[
+filtered = df[
+    [
         "Sold-to-party name",
         "Customer PO no.",
         "Sales order no",
@@ -19,8 +19,12 @@ pivoted = df.pivot(
         "CY date",
         "On-board date",
         "ETA date",
-    ],
-    values=["SO qty", "Confirm qty", "CTR measure"],
-)
+        "SO qty",
+        "Confirm qty",
+        "CTR measure",
+    ]
+]
 
-pivoted.to_excel("korea_pivot.xlsx")
+filtered["Origin"] = "Korea"
+
+filtered.to_excel("korea_pivot.xlsx")
