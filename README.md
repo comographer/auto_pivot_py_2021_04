@@ -13,3 +13,10 @@ _20210421_
 - Finished filtering and adding origin to Korea.
 - Will try doing both China and Indonesia tomorrow.
 - Current changed plan is to filter & add origin to all three files, combine them giving new row of titles.
+
+_20210422_
+
+- added indonesia.py & china.py the filters respective xlsx files.
+- implemented column rename to each country function. (need to look how to do this in single go)
+- added order_status variable which combines all three filters & renamed DFs.
+- tomorrow : change multiple values in Customer and Pattern Column.
