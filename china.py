@@ -22,6 +22,23 @@ def china(china):
         ]
     ]
 
+    china_filter.columns = [
+        "Customer",
+        "PO",
+        "SO",
+        "Material",
+        "Size",
+        "Pattern",
+        "Brand",
+        "Destination",
+        "R.EPC",
+        "CY",
+        "ETD",
+        "ETA",
+        "Order QTY",
+        "Confirm QTY",
+    ]
+
     china_filter["CTR Measure"] = ""
     china_filter["Origin"] = "China"
     return china_filter

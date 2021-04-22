@@ -23,5 +23,23 @@ def korea(korea):
         ]
     ]
 
+    korea_filter.columns = [
+        "Customer",
+        "PO",
+        "SO",
+        "Material",
+        "Size",
+        "Pattern",
+        "Brand",
+        "Destination",
+        "R.EPC",
+        "CY",
+        "ETD",
+        "ETA",
+        "Order QTY",
+        "Confirm QTY",
+        "CTR Measure",
+    ]
+
     korea_filter["Origin"] = "Korea"
     return korea_filter

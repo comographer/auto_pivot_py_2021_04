@@ -25,5 +25,22 @@ def indonesia(indonesia):
         ]
     ]
 
+    indonesia_filter.columns = [
+        "Customer",
+        "PO",
+        "SO",
+        "Material",
+        "Size",
+        "Pattern",
+        "Brand",
+        "Destination",
+        "R.EPC",
+        "CY",
+        "ETD",
+        "ETA",
+        "Order QTY",
+        "Confirm QTY",
+        "CTR Measure",
+    ]
     indonesia_filter["Origin"] = "Indonesia"
     return indonesia_filter
