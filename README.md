@@ -1,4 +1,4 @@
-# auto_pivot_py_2021_04
+# pandas_practice_py_2021_04
 
 - Personal side project to create excel pivot automation for work.
 
