@@ -12,6 +12,7 @@ def china(china):
             "Size",
             "Pattern",
             "Brand",
+            "Line",
             "Unloading Point",
             "ReEPC Date",
             "CY Date",
@@ -19,6 +20,7 @@ def china(china):
             "ETA Date",
             "Order Qty.",
             "Confirmed Qty.",
+            "Net value",
         ]
     ]
 
@@ -30,6 +32,7 @@ def china(china):
         "Size",
         "Pattern",
         "Brand",
+        "Line",
         "Destination",
         "R.EPC",
         "CY",
@@ -37,6 +40,7 @@ def china(china):
         "ETA",
         "Order QTY",
         "Confirm QTY",
+        "Net Value",
     ]
 
     china_filter["CTR Measure"] = ""

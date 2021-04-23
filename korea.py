@@ -12,6 +12,7 @@ def korea(korea):
             "Size",
             "Pattern",
             "Brand",
+            "Prod.hier text",
             "F.Dest text",
             "R.EPC date",
             "CY date",
@@ -19,6 +20,7 @@ def korea(korea):
             "ETA date",
             "SO qty",
             "Confirm qty",
+            "Net amount",
             "CTR measure",
         ]
     ]
@@ -31,6 +33,7 @@ def korea(korea):
         "Size",
         "Pattern",
         "Brand",
+        "Line",
         "Destination",
         "R.EPC",
         "CY",
@@ -38,6 +41,7 @@ def korea(korea):
         "ETA",
         "Order QTY",
         "Confirm QTY",
+        "Net Value",
         "CTR Measure",
     ]
 

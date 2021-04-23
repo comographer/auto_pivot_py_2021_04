@@ -17,4 +17,10 @@ indonesia_status = indonesia(indonesia_xlsx)
 
 order_status = korea_status.append([china_status, indonesia_status])
 
-# order_status.to_excel("order_status.xlsx", index=False)
+order_status["Customer"] = (
+    order_status["Customer"]
+    .replace(["Agrohim", "AGROHIM&KEMOIMPEX DOO BEOGRAD"], "AGROHIM")
+    .replace(["PRIMEX LTD", "PRIMEX LTD."], "PRIMEX")
+)
+
+order_status.to_excel("order_status.xlsx", index=False)

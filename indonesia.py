@@ -14,6 +14,7 @@ def indonesia(indonesia):
             "Size",
             "Pattern",
             "Brand",
+            "Prod. hier. text",
             "F.Dest Text",
             "R.EPC date",
             "CY date",
@@ -21,6 +22,7 @@ def indonesia(indonesia):
             "ETA date",
             "S/O QTY",
             "Confirm QTY",
+            "Net amount",
             "CTR. Measure",
         ]
     ]
@@ -33,6 +35,7 @@ def indonesia(indonesia):
         "Size",
         "Pattern",
         "Brand",
+        "Line",
         "Destination",
         "R.EPC",
         "CY",
@@ -40,6 +43,7 @@ def indonesia(indonesia):
         "ETA",
         "Order QTY",
         "Confirm QTY",
+        "Net Value",
         "CTR Measure",
     ]
     indonesia_filter["Origin"] = "Indonesia"
