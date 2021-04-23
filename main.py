@@ -23,4 +23,10 @@ order_status["Customer"] = (
     .replace(["PRIMEX LTD", "PRIMEX LTD."], "PRIMEX")
 )
 
+order_status["Line"] = (
+    order_status["Line"]
+    .replace(["TBR/L", "TBR/M", "TBR/S", "USS"], "TBR")
+    .replace(["UHP", "HP", "LS", "LV", "SP"], "PCLT")
+)
+
 order_status.to_excel("order_status.xlsx", index=False)
