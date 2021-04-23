@@ -20,3 +20,9 @@ _20210422_
 - implemented column rename to each country function. (need to look how to do this in single go)
 - added order_status variable which combines all three filters & renamed DFs.
 - tomorrow : change multiple values in Customer and Pattern Column.
+
+_20210423_
+
+- added prod.hier as Line and net amount as Net Value for each country.
+- implemented Customer and Line simplifying with replace()
+- seems about done for now. will check with colleagues at work for further development.
