@@ -3,9 +3,9 @@ from korea import korea
 from china import china
 from indonesia import indonesia
 
-korea_xlsx = "korea.xlsx"
-china_xlsx = "china.xlsx"
-indonesia_xlsx = "indonesia.xlsx"
+korea_xlsx = "korea.XLSX"
+china_xlsx = "china.XLSX"
+indonesia_xlsx = "indonesia.XLSX"
 
 # korea(korea_xlsx).to_excel("korea_filter.xlsx", index=False)
 # china(china_xlsx).to_excel("china_filter.xlsx", index=False)
