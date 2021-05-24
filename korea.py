@@ -3,6 +3,8 @@ import pandas as pd
 
 def korea(korea):
     df = pd.read_excel(korea, engine="openpyxl")
+    df.rename(columns={df.columns[53]: "LinerDesc"}, inplace=True)
+
     korea_filter = df[
         [
             "Sold-to-party name",
@@ -16,6 +18,7 @@ def korea(korea):
             "F.Dest text",
             "BOL no.",
             "Container ID",
+            "LinerDesc",
             "R.EPC date",
             "CY date",
             "On-board date",
@@ -39,6 +42,7 @@ def korea(korea):
         "Destination",
         "B/L",
         "CTN ID",
+        "Liner",
         "R.EPC",
         "CY",
         "ETD",

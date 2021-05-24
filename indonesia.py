@@ -18,6 +18,7 @@ def indonesia(indonesia):
             "F.Dest Text",
             "Bill of lading no.",
             "Container ID",
+            "Final F/W Name",
             "R.EPC date",
             "CY date",
             "On-board date",
@@ -40,6 +41,7 @@ def indonesia(indonesia):
         "Line",
         "Destination",
         "B/L",
+        "Liner",
         "CTN ID",
         "R.EPC",
         "CY",
@@ -50,5 +52,6 @@ def indonesia(indonesia):
         "Net Value",
         "CTR Measure",
     ]
+
     indonesia_filter["Origin"] = "Indonesia"
     return indonesia_filter
