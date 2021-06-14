@@ -5,7 +5,7 @@ def china(china):
     df = pd.read_excel(china, engine="openpyxl")
     china_filter = df[
         [
-            "Sold Name",
+            "Ship Name",
             "Cust. PO No.",
             "Sales Document",
             "Material",

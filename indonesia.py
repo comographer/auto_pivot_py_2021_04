@@ -7,7 +7,7 @@ def indonesia(indonesia):
 
     indonesia_filter = df[
         [
-            "Sold-to party name",
+            "Ship-to party name",
             "Customer PO no.",
             "Sales Doc.",
             "Material",
